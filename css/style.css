@@ -190,7 +190,7 @@ html, body {
 }
 
 .content-left-middle p:first-child {
-  height: 50px;
+  height: 30px;
 }
 
 .content-left-middle p:first-child i {
@@ -219,6 +219,8 @@ html, body {
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  border: 3px solid #191919;
+  border-radius: 5px;
 }
 
 /* 1.오른쪽 */
