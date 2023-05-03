@@ -39,8 +39,8 @@ html, body {
 }
 .header ul li{
   width: 65px;
-  height: 38px;
-  line-height: 38px;
+  height: 36px;
+  line-height: 36px;
   text-align: center;
   border-radius: 10px;
   letter-spacing: 2px;
@@ -88,11 +88,34 @@ html, body {
   width: 100%;
   height: 76vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: 3vw;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
+  flex-flow: wrap;
+}
+.sticky-title-header{
+  height: 100px;
+  width: 100%;
+  background-color: #e8daf3;
+  border-bottom: 3px solid #191919;
+  border-top: 2px solid #191919;
+  line-height:100px;
+}
+
+.sticky-title-content{
+  height: 100%;
+  width: 100%;
+  /* background-color: #f1f4ba; */
+}
+
+.sticky-title-content-1{
+  height: 100%;
+  width: 100px;
+  border-left: 3px solid #191919;
+  border-right: 3px solid #191919;
 }
 
 .sticky {
