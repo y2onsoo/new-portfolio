@@ -319,13 +319,13 @@ html, body {
 }
 .content-4-top {
   height: 50%;
-  border-bottom: 1px solid #000;
+  border-bottom: 1.5px solid #000;
   display: flex;
 }
 
 .content-4-top-left {
   width: 60%;
-  border-right: 1px solid #000;
+  border-right: 1.5px solid #000;
 }
 
 .content-4-top-right {
@@ -339,7 +339,7 @@ html, body {
 
 .content-4-bottom-left {
   width: 40%;
-  border-right: 1px solid #000;
+  border-right: 1.5px solid #000;
 }
 
 .content-4-bottom-right {
