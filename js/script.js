@@ -76,3 +76,22 @@ $(document).ready(function () {
     $("html").animate({ scrollTop: offset.top }, 400);
   });
 });
+
+
+////////////////////////////////////////////////////
+document.getElementById("banner1").onclick = function () {
+  document.querySelector(".banner1-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+
+
+
+
+function btn() {
+  document.querySelector(".banner1-big").style.display = "none";
+
+
+
+  
+  document.getElementById("bg").classList.remove("box-bg");
+}
