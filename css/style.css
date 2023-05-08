@@ -76,7 +76,8 @@ body {
   border-right: 1px solid #191919;
 }
 
-/*스킬이나 자격사항*/
+/******************************************************************************** ****************************스킬이나 자격사항**********************************
+**********************************************************************************/
 .main-content-1 {
   background-color: #fff;
   border-top: 1px solid #191919;
@@ -116,9 +117,11 @@ body {
 
 .sticky-title-content-1 {
   height: 100%;
-  width: 100px;
+  width: 100%;
   border-left: 1px solid #191919;
   border-right: 1px solid #191919;
+  background-color: #fefaff;
+  background-image: url(../images/cross-pattern.png);
 }
 
 .sticky {
