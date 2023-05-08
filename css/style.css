@@ -39,8 +39,8 @@ body {
 }
 .header ul li {
   width: 65px;
-  height: 34px;
-  line-height: 34px;
+  height: 24px;
+  line-height: 24px;
   text-align: center;
   border-radius: 10px;
   letter-spacing: 2px;
@@ -61,21 +61,57 @@ body {
   text-align: center;
 }
 .start-screen-left {
-  width: 50%;
+  width: 60%;
   height: 100vh;
   border-right: 1px solid #191919;
   border-bottom: 1px solid #191919;
   border-left: 1px solid #191919;
   background-color: #fff;
 }
+
 .start-screen-right {
-  width: 50%;
+  width: 40%;
   height: 100vh;
   background-color: #f1f4ba;
   border-bottom: 1px solid #191919;
   border-right: 1px solid #191919;
 }
 
+.start-top-left{
+  height:100px;
+  background-color:#72b4d5;
+  border-bottom: 1px solid #000;
+}
+.start-top-right{
+  height: 100px;
+  background-color: #05a362;
+  border-bottom: 1px solid #000;
+}
+
+.start-top-left h2{
+  line-height: 110px;
+  text-align: center;
+}
+.start-middle-left{
+  height: 50%;
+  background-color: #ece499;
+}
+.start-bottom-left{
+  height: 50%;
+  background-color: #191919;
+}
+.start-top-right p:first-child{
+  height: 50px;
+  font-size: 25px;
+  line-height: 70px;
+  text-align: center;
+}
+.start-top-right p:last-child{
+  height: 50px;
+  font-size: 25px;
+  line-height: 60px;
+  text-align: center;
+}
 /******************************************************************************** ****************************스킬이나 자격사항**********************************
 **********************************************************************************/
 .main-content-1 {
@@ -114,7 +150,7 @@ body {
   width: 100%;
   /* background-color: #f1f4ba; */
 }
-
+/*  *************여기에 these are my portfolio 내용************* */
 .sticky-title-content-1 {
   height: 100%;
   width: 100%;
@@ -122,6 +158,22 @@ body {
   border-right: 1px solid #191919;
   background-color: #fefaff;
   background-image: url(../images/cross-pattern.png);
+  display: flex
+}
+.sticky-title-content-1 .sticky-1{
+  width:33%;
+  height: 100%;
+  background-color: #63a3e475;
+}
+.sticky-title-content-1 .sticky-2{
+  width: 33%;
+  height: 100%;
+  background-color: #e7824876;
+}
+.sticky-title-content-1 .sticky-3{
+  width: 33%;
+  height: 100%;
+  background-color: #ead83a8e;
 }
 
 .sticky {
