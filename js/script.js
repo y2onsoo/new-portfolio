@@ -107,7 +107,10 @@ document.getElementById("banner7").onclick = function () {
   document.querySelector(".banner7-big").style.display = "block";
   document.getElementById("bg").classList.add("box-bg");
 };
-
+document.getElementById("banner8").onclick = function () {
+  document.querySelector(".banner8-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
 
 
 
@@ -120,6 +123,7 @@ function btn() {
   document.querySelector(".banner5-big").style.display = "none";
   document.querySelector(".banner6-big").style.display = "none";
   document.querySelector(".banner7-big").style.display = "none";
+  document.querySelector(".banner8-big").style.display = "none";
 
 
 
