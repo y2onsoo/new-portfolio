@@ -83,15 +83,51 @@ document.getElementById("banner1").onclick = function () {
   document.querySelector(".banner1-big").style.display = "block";
   document.getElementById("bg").classList.add("box-bg");
 };
+document.getElementById("banner2").onclick = function () {
+  document.querySelector(".banner2-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+document.getElementById("banner3").onclick = function () {
+  document.querySelector(".banner3-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+document.getElementById("banner4").onclick = function () {
+  document.querySelector(".banner4-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+document.getElementById("banner5").onclick = function () {
+  document.querySelector(".banner5-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+document.getElementById("banner6").onclick = function () {
+  document.querySelector(".banner6-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+document.getElementById("banner7").onclick = function () {
+  document.querySelector(".banner7-big").style.display = "block";
+  document.getElementById("bg").classList.add("box-bg");
+};
+
 
 
 
 
 function btn() {
   document.querySelector(".banner1-big").style.display = "none";
+  document.querySelector(".banner2-big").style.display = "none";
+  document.querySelector(".banner3-big").style.display = "none";
+  document.querySelector(".banner4-big").style.display = "none";
+  document.querySelector(".banner5-big").style.display = "none";
+  document.querySelector(".banner6-big").style.display = "none";
+  document.querySelector(".banner7-big").style.display = "none";
 
 
 
-  
+
+
   document.getElementById("bg").classList.remove("box-bg");
 }
+
+
+
+////////
