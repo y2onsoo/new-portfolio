@@ -101,8 +101,9 @@ body {
 .start-middle-1-left{
   width: 70px;
   height: 100%;
-  background-color: #C38DBA;
   border-right: 1px solid #000;
+  background-image: url(../images/pattern-2.jpg);
+  /* background-color: #C38DBA; */
 }
 /* 위 오른쪽 무늬 옆 */
 .start-middle-2-left{
@@ -120,8 +121,9 @@ body {
   border-right: 1px solid #000;
   background-image: url(../images/pattern-1.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-color: #63B6D4;
 }
 .start-middle-2-left-1-2{
   width: 50%;
