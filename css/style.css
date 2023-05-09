@@ -92,14 +92,85 @@ body {
   line-height: 110px;
   text-align: center;
 }
+/* 왼쪽 가운데 윗쪽 */
 .start-middle-left{
-  height: 50%;
+  height: 45%;
   background-color: #ece499;
+  display: flex;
 }
+.start-middle-1-left{
+  width: 70px;
+  height: 100%;
+  background-color: #C38DBA;
+  border-right: 1px solid #000;
+}
+/* 위 오른쪽 무늬 옆 */
+.start-middle-2-left{
+  width: calc(100% - 70px);
+  height: 100%;
+}
+/* 소개글위 패턴 */
+.start-middle-2-left-1{
+  height:75%;
+  display: flex;
+}
+.start-middle-2-left-1-1{
+  width: 50%;
+  /* background-color: #fff; */
+  border-right: 1px solid #000;
+  background-image: url(../images/pattern-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.start-middle-2-left-1-2{
+  width: 50%;
+  background-color: #05a362;
+}
+
+/* 나를소개하는 글 */
+.start-middle-2-left-2{
+  height: 25%;
+  background-color:#63B6D4 ;
+  border-top: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+/* 왼쪽 가운데 맨밑 */
 .start-bottom-left{
-  height: 50%;
-  background-color: #191919;
+  height: 55%;
+  background-color: #fff;
+  display: flex;
+  border-top: 1.5px solid #000;
 }
+.start-bottom-left-1{
+  width: 60%;
+  height: 100%;
+  background-color:#C38DBA;
+  border-right: 1px solid #000;
+  position: relative;
+}
+.start-bottom-left-1-text{
+  /* background-color: #d1d8db; */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 1.5;
+}
+
+.start-bottom-left-2-text{}
+
+
+
+.start-bottom-left-2{
+  width: 40%;
+  height: 100%;
+  background-color: #72b4d5;
+}
+
+
+/* ****************첫화면 오른쪽****************** */
 .start-top-right p:first-child{
   height: 50px;
   font-size: 25px;
@@ -111,6 +182,10 @@ body {
   font-size: 25px;
   line-height: 60px;
   text-align: center;
+}
+.start-middle-right{
+  height: 100%;
+  background-color:#C38DBA;
 }
 /******************************************************************************** ****************************스킬이나 자격사항**********************************
 **********************************************************************************/
@@ -143,6 +218,7 @@ body {
   line-height: 110px;
   font-size: 45px;
   letter-spacing: 10px;
+  border-top: 1px solid #000;
 }
 
 .sticky-title-content {
