@@ -1005,12 +1005,12 @@ body {
 }
 .content-4-bottom-left .box4-7 p:last-child {
   position: absolute;
-  width: 1000px;
-  height: 700px;
+  width: 800px;
+  height: 800px;
   top: 35%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background-image: url(../images/banner-9.jpg);
+  background-image: url(../images/parentsday.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1130,7 +1130,7 @@ body {
   top: 35%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background-image: url(../images/banner-2.jpg);
+  background-image: url(../images/banner-9.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
