@@ -240,7 +240,7 @@ body {
 }
 .sticky-title-content-1 .sticky-1{
   width:100%;
-  height: 40%;
+  height: 100%;
   border-bottom: 1px solid #000;
   display: flex;
 }
@@ -267,12 +267,14 @@ body {
 
 }
 .html-img{
-  height: 70%;
-  background-color: #fff;
+  height: 60%;
   background-image: url(../images/html5.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+.html-img:hover{
+  transform: rotateZ(-30deg);
 }
 .html-text{
   text-align: center;
@@ -284,11 +286,10 @@ body {
   height: 100%;
 }
 .css-img{
-  height: 70%;
-  background-color: #fff;
+  height: 60%;
   background-image: url(../images/css3.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .css-text{
@@ -301,9 +302,8 @@ body {
   height: 100%;
 }
 .javascript-img{
-  height: 70%;
-  background-color: #fff;
-  background-image: url(../images/javascirpt-img.png);
+  height: 60%;
+  background-image: url(../images/javascript-img.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -318,8 +318,7 @@ body {
   height: 100%;
 }
 .jquery-img{
-  height: 70%;
-  background-color: #fff;
+  height: 60%;
   background-image: url(../images/jquery-img.png);
   background-position: center;
   background-size: contain;
@@ -330,7 +329,7 @@ body {
   font-size: 25px;
   line-height: 2.5;
 }
-.sticky-title-content-1 .sticky-2{
+/* .sticky-title-content-1 .sticky-2{
   width: 100%;
   height: 60%;
   display: flex;
@@ -344,7 +343,7 @@ body {
 .sticky-2-2{
   width:calc(100% - 80px);
   height: 100%;
-}
+} */
 
 
 .sticky {
