@@ -115,6 +115,7 @@ body {
 .start-middle-2-left-1{
   height:75%;
   display: flex;
+  border-bottom: 1px solid #000;
 }
 .start-middle-2-left-1-1{
   width: 50%;
@@ -129,15 +130,30 @@ body {
 .start-middle-2-left-1-2{
   width: 50%;
   background-color: #05a362;
+  background-image: url(../images/mbti.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* 나를소개하는 글 */
 .start-middle-2-left-2{
   height: 25%;
   background-color:#63B6D4 ;
-  border-top: 1px solid #000;
+  /* border-top: 1px solid #000; */
   display: flex;
   align-items: center;
+}
+
+.text{
+  animation: cursor 0.5s ease infinite;
+  border-right:0.1em solid #000;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@keyframes cursor{
+  50%{border-color: transparent;}
 }
 /* 왼쪽 가운데 맨밑 */
 .start-bottom-left{
@@ -273,6 +289,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .html-img:hover{
   transform: rotateZ(-30deg);
 }
