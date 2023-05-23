@@ -868,7 +868,7 @@ body {
 
 /***************배너1,2,3****************/
 .content-4-top-left-1 {
-  height: calc(100% - 60px);
+  height:100%;
   display: flex;
 }
 .content-4-top-left-1 .box-33 {
@@ -950,12 +950,7 @@ body {
   display: none;
 }
 
-.content-4-top-left-2 {
-  height: 60px;
-  border-top: 1px solid #000;
-  background-color: #000;
-  color: #fff;
-}
+
 /***************배너4,모눈종이****************/
 .content-4-top-right {
   width: 40%;
@@ -1127,14 +1122,10 @@ body {
   letter-spacing: 2px;
   padding: 0 20px;
 }
-.content-4-bottom-right-1 {
-  height: 80px;
-  border-bottom: 1px solid #000;
-  background-color: #000;
-  color: #fff;
-}
+
 .content-4-bottom-right-2 {
-  height: calc(100% - 80px);
+  /* height: calc(100% - 80px); */
+  height: 100%;
   width: 100%;
   display: flex;
 }
@@ -1359,6 +1350,7 @@ body {
     border-right: 0.1em solid #000;
     display: table-cell;
     vertical-align: middle;
+    font-size: 25px;
   }
   
   @keyframes cursor {
@@ -2078,7 +2070,7 @@ body {
   
   /***************배너1,2,3****************/
   .content-4-top-left-1 {
-    height: calc(100% - 60px);
+    height:100%;
     display: flex;
   }
   .content-4-top-left-1 .box-33 {
@@ -2160,12 +2152,6 @@ body {
     display: none;
   }
   
-  .content-4-top-left-2 {
-    height: 60px;
-    border-top: 1px solid #000;
-    background-color: #000;
-    color: #fff;
-  }
   /***************배너4,모눈종이****************/
   .content-4-top-right {
     width: 40%;
@@ -2337,14 +2323,9 @@ body {
     letter-spacing: 2px;
     padding: 0 20px;
   }
-  .content-4-bottom-right-1 {
-    height: 80px;
-    border-bottom: 1px solid #000;
-    background-color: #000;
-    color: #fff;
-  }
+
   .content-4-bottom-right-2 {
-    height: calc(100% - 80px);
+    height:100%;
     width: 100%;
     display: flex;
   }
@@ -2565,7 +2546,7 @@ body {
     /* border-top: 1px solid #000; */
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
     display: none;
   }
   

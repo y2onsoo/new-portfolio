@@ -135,7 +135,7 @@ function btn() {
 
 
 ////////////타이핑효과
-const content = "Typing Effect"
+const content = "Web Publisher & UI/UX Designer"
 const text = document.querySelector(".text")
 let index = 0;
 
@@ -147,4 +147,4 @@ function typing(){
   }
 }
 
-setInterval(typing, 500)
+setInterval(typing, 400)
