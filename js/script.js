@@ -136,4 +136,6 @@ function typing() {
     text.textContent = "";
     index = 0;
   }
-};
+}
+setInterval(typing, 500);
+

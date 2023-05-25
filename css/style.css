@@ -153,10 +153,20 @@ body {
   vertical-align: middle;
 }
 
+
 @keyframes cursor {
   50% {
     border-color: transparent;
   }
+}
+
+
+.start-middle-right{
+  background-image:url(../images/yeon.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 /* 왼쪽 가운데 맨밑 */
 .start-bottom-left {
