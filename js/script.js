@@ -77,6 +77,14 @@ $(document).ready(function () {
   });
 });
 
+///////////
+$('.contact').click(function(){
+  $('.modal-resume').show();
+})
+$('.modal-resume i').click(function(){
+  $('.modal-resume').hide();
+})
+
 ////////////////////////////////////////////////////
 document.getElementById("banner1").onclick = function () {
   document.querySelector(".banner1-big").style.display = "block";
