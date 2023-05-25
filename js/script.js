@@ -126,7 +126,7 @@ function btn() {
 
 
 ////////////타이핑효과
-const content = "Web Publisher & UI/UX Designer";
+const content = "Think something different";
 const text = document.querySelector(".text");
 let index = 0;
 
