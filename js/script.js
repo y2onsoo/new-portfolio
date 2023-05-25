@@ -77,7 +77,6 @@ $(document).ready(function () {
   });
 });
 
-
 ////////////////////////////////////////////////////
 document.getElementById("banner1").onclick = function () {
   document.querySelector(".banner1-big").style.display = "block";
@@ -112,9 +111,6 @@ document.getElementById("banner8").onclick = function () {
   document.getElementById("bg").classList.add("box-bg");
 };
 
-
-
-
 function btn() {
   document.querySelector(".banner1-big").style.display = "none";
   document.querySelector(".banner2-big").style.display = "none";
@@ -125,39 +121,19 @@ function btn() {
   document.querySelector(".banner7-big").style.display = "none";
   document.querySelector(".banner8-big").style.display = "none";
 
-
-
-
-
   document.getElementById("bg").classList.remove("box-bg");
 }
 
 
-
 ////////////타이핑효과
-const content = "Web Publisher & UI/UX Designer"
-const text = document.querySelector(".text")
+const content = "Web Publisher & UI/UX Designer";
+const text = document.querySelector(".text");
 let index = 0;
 
-function typing(){
+function typing() {
   text.textContent += content[index++];
-  if(index > content.length){
-    text.textContent = ""
+  if (index > content.length) {
+    text.textContent = "";
     index = 0;
   }
-}
-
-
-
-
-///////프로스래스 스킬바
-$({ val : 0 }).animate({ val : 90 }, {
-  duration: 5000,
- step: function() {
-   $(".html-progress").text(Math.floor(this.val));
- },
- complete: function() {
-   $(".html-progress").text(Math.floor(this.val));
-   $(".html-progress").css("color","#000");
- }
-});
+};
