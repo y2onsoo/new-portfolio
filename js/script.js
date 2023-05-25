@@ -147,4 +147,17 @@ function typing(){
   }
 }
 
-setInterval(typing, 400)
+
+
+
+///////프로스래스 스킬바
+$({ val : 0 }).animate({ val : 90 }, {
+  duration: 5000,
+ step: function() {
+   $(".html-progress").text(Math.floor(this.val));
+ },
+ complete: function() {
+   $(".html-progress").text(Math.floor(this.val));
+   $(".html-progress").css("color","#000");
+ }
+});
