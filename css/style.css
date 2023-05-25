@@ -177,7 +177,7 @@ body {
 }
 .start-bottom-left-1 {
   width: 60%;
-  height: 300px;
+  height: 450px;
   background-color: #c38dba;
   border-right: 1px solid #000;
   position: relative;
@@ -212,7 +212,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  top: 40%;
+  top: 50%;
   left: 55%;
   transform: translate(-50%,-50%);
   width: 300px;
@@ -1427,10 +1427,13 @@ body {
   }
   .start-bottom-left-1 {
     width: 60%;
-    height: 100%;
+    height: 90%;
     background-color: #c38dba;
     border-right: 1px solid #000;
     position: relative;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
   }
   .start-bottom-left-1-text {
     /* background-color: #d1d8db; */
