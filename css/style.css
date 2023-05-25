@@ -448,21 +448,7 @@ body {
   font-size: 25px;
   line-height: 2.5;
 }
-/* .sticky-title-content-1 .sticky-2{
-  width: 100%;
-  height: 60%;
-  display: flex;
-}
-.sticky-2-1{
-  width: 80px;
-  height: 100%;
-  background-color: #05a362;
-  font-size: 50px;
-}
-.sticky-2-2{
-  width:calc(100% - 80px);
-  height: 100%;
-} */
+
 
 .sticky {
   position: sticky;
@@ -1335,7 +1321,7 @@ body {
     text-align: center;
   }
   .start-screen-left {
-    width: 60%;
+    width: 50%;
     height: 100vh;
     border-right: 1px solid #191919;
     border-bottom: 1px solid #191919;
@@ -1344,7 +1330,7 @@ body {
   }
   
   .start-screen-right {
-    width: 40%;
+    width: 50%;
     height: 100vh;
     background-color: #f1f4ba;
     border-bottom: 1px solid #191919;
@@ -1460,10 +1446,24 @@ body {
     width: 40%;
     height: 100%;
     background-color: #72b4d5;
-    background-image: url(../images/pattern-3.png);
+    background-image: url(../images/pattern.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+  }
+  .start-bottom-left-2 .contact{
+    position: absolute;
+    display: inline-block;
+    background-image: url(../images/contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    width: 180px;
+    height: 180px;
   }
   
   /* ****************첫화면 오른쪽****************** */
@@ -1482,6 +1482,14 @@ body {
   .start-middle-right {
     height: 100%;
     background-color: #c38dba;
+  }
+
+  .start-middle-right{
+    background-image:url(../images/yeon.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
   }
   /******************************************************************************** ****************************스킬이나 자격사항**********************************
   **********************************************************************************/
@@ -2708,6 +2716,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     filter: grayscale(0.5);
+    font-size: 20px;
   }
   .start-bottom-left-1-text {
     /* background-color: #d1d8db; */
