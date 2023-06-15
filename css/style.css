@@ -18,11 +18,13 @@ body {
 .fr {
   float: right;
 }
+
 @media screen and (min-width: 1024px) {
   /*******************************************************************/
   body {
     position: relative;
   }
+
   .modal-resume {
     position: absolute;
     top: 0;
@@ -87,6 +89,7 @@ body {
     font-size: 16px;
     cursor: pointer;
   }
+  #qm li a.on{font-weight: bold;}
 
   /*첫 메인 페이지*/
   .start-screen {
