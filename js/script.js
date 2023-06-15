@@ -57,72 +57,25 @@ window.addEventListener("scroll", () => {
 $(document).ready(function () {
   $("#home").click(function () {
     const offset = $(".start-screen").offset(); //선택한 태그의 위치를 반환
-    $("html").animate({ scrollTop: offset.top }, 400);
+    $("body").animate({ scrollTop: offset.top }, 400);
   });
   $("#first").click(function () {
-    const offset = $(".title-1").offset(); //선택한 태그의 위치를 반환
-    $("html").animate({ scrollTop: offset.top }, 400);
+    const offset1 = $(".title-1").offset1(); //선택한 태그의 위치를 반환
+    $("body").animate({ scrollTop: offset.top }, 400);
   });
   $("#second").click(function () {
-    const offset = $(".title-2").offset(); //선택한 태그의 위치를 반환
+    const offset2 = $(".title-2").offset2(); //선택한 태그의 위치를 반환
     $("html").animate({ scrollTop: offset.top }, 400);
   });
   $("#thrid").click(function () {
-    const offset = $(".title-3").offset(); //선택한 태그의 위치를 반환
+    const offset3 = $(".title-3").offset3(); //선택한 태그의 위치를 반환
     $("html").animate({ scrollTop: offset.top }, 400);
   });
   $("#fourth").click(function () {
-    const offset = $(".title-4").offset(); //선택한 태그의 위치를 반환
+    const offset4 = $(".title-4").offset4(); //선택한 태그의 위치를 반환
     $("html").animate({ scrollTop: offset.top }, 400);
   });
 });
-
-// $(function () {
-//   const $win = $(window);
-//   const $qm = $("#qm");
-//   const $qma = $("#qm>li>a");
-//   const $delay = 300;
-
-//   $qma.click(function () {
-//     const go = $(this).attr("href");
-//     const speed = 1000;
-
-//     $("html,body").animate(
-//       {
-//         scrollTop: $(go).offset().top,
-//       },
-//       speed
-//     );
-
-//     $($qma).removeClass("on");
-//     $(this).addClass("on");
-//     return false;
-//   });
-
-//   // 스크롤추적-scrollspy
-//   function scrollSpy() {
-//     $("div.section>div").each(function () {
-//       if ($(this).offset().top - $win.scrollTop() < 20) {
-//         $qma.removeClass("on");
-//         $qma.blur();
-//         $qm.find("[href=#" + $(this).attr("id") + "]").addClass("on");
-//       }
-//     });
-//   }
-
-//   $qma[0].click();
-
-//   function fit() {
-//     var wh = $win.height();
-//     $(".section-1").css("height", wh);
-//   }
-
-//   fit();
-
-//   $win.resize(function () {
-//     fit();
-//   });
-// });
 
 ///////////
 $(".contact").click(function () {

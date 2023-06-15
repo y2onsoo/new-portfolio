@@ -24,6 +24,17 @@ body {
   body {
     position: relative;
   }
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
 
   .modal-resume {
     position: absolute;
@@ -89,7 +100,16 @@ body {
     font-size: 16px;
     cursor: pointer;
   }
-  #qm li a.on{font-weight: bold;}
+  .header ul li a {
+    display: block;
+    width: 65px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #qm li a.on {
+    font-weight: bold;
+  }
 
   /*첫 메인 페이지*/
   .start-screen {
